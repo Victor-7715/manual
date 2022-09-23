@@ -1,13 +1,11 @@
 # Инструкция по использованию git
 
 ## Что такое git?
+Git - самая популярная система контроля версий, но не единственная. Алгоритм работы подобных систем схож.
 
 ## Команды git
-git init
-git status
-git add
-git commit -m "message"
-git log
-git checkout
-git checkout master
-git diff
+git init, git status, git add, git commit -m "message",git log, git checkout, git checkout master, git diff
+## Что выполняет каждая команда git
+ 1. git init - Инициализация локального репозитория. Инициализация: указываем папку, в которой git начнёт отслеживать изменения. В папке создаётся скрытая папка .git
+ 2. git status - Показывает текущее состояние гита, есть ли изменения, которые нужно закоммитить (сохранить).
+ 3. git
